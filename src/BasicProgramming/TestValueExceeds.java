@@ -10,6 +10,7 @@ class ValueExceeds extends Exception {
 }
 
 public class TestValueExceeds {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();

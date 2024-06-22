@@ -10,6 +10,7 @@ class NoMatchException extends Exception {
 }
 
 public class TestNoMatchException {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         String S1 = "Bangladesh";
